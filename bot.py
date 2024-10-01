@@ -123,7 +123,7 @@ while keyboard.is_pressed('q') == False:
         print('Inventory full, selling...')  # Translated "Inventar voll, verkaufe..." to "Inventory full, selling..."
         
         # Stop the main loop and focus on clicking the specified location
-        click(1215, 960)  # Move mouse to X=1215, Y=9484
+        click(100, 100)  # Move mouse to X=1215, Y=9484
         
         # Reset fish counter to allow for further fishing
         fish_counter = 0
